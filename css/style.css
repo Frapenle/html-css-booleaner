@@ -45,7 +45,8 @@ figcaption {
     font-size: 0.7rem;
 }
 
-p {
+p,
+article {
     margin: 1rem 0;
 }
 
@@ -53,22 +54,49 @@ ul {
     padding: 1rem;
 }
 
-article {
-    margin: 1em 0;
-}
-
 table {
     border-collapse: collapse;
+    width: 100%;
 }
 
-thead {
+thead > tr > th {
     background-color: rgb(46, 157, 254);
+    text-align: left;
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(139, 224, 255);
+}
+
+.colspan3 {
+    width: 50%;
 }
 
 .lightcyan{
     background-color: rgb(139, 224, 255);
 }
 
-aside {
-    color: lightgray;
+aside > h3{
+    color: rgb(159, 159, 159);
 }
+
+aside > div > h3 {
+    color: white;
+    padding: 1rem;
+}
+
+.related-box {
+    margin: 0 0 1rem 0;;
+    width: 300px;
+    height: 200px;
+    background-size: contain;
+    position: relative;
+}
+
+.text-img,
+.text-graph {
+    position: absolute;
+    top: 0;
+}
+
