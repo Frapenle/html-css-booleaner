@@ -29,6 +29,10 @@ h1 {
     padding: 1rem 0 0;
 }
 
+h3 {
+    padding: 1rem 0;
+}
+
 h3 > span {
     color: rgb(95, 139, 242);
 }
@@ -47,4 +51,24 @@ p {
 
 ul {
     padding: 1rem;
+}
+
+article {
+    margin: 1em 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: rgb(46, 157, 254);
+}
+
+.lightcyan{
+    background-color: rgb(139, 224, 255);
+}
+
+aside {
+    color: lightgray;
 }
