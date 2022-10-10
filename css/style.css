@@ -3,10 +3,9 @@
 }
 
 .container {
-    width: 65%;
+    width: 50%;
     margin: auto;
 }
-
 
 #logo {
     width: 13em;
@@ -21,7 +20,7 @@
     background-image: url("../img/pattern.png");
     background-size: 400px;
     background-position: top;
-    background-color: rgb(95, 139, 242);
+    background-color: rgb(81, 159, 252);
 }
 
 h1 {
@@ -29,12 +28,17 @@ h1 {
     padding: 1rem 0 0;
 }
 
-h3 {
-    padding: 1rem 0;
+h3,
+time {
+    color: rgb(128, 128, 128);
+}
+
+time {
+    font-size: 0.8rem;
 }
 
 h3 > span {
-    color: rgb(95, 139, 242);
+    color: rgb(40, 168, 226);
 }
 
 figure {
@@ -42,7 +46,7 @@ figure {
 }
 
 figcaption {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 
 p,
@@ -60,25 +64,22 @@ table {
 }
 
 thead > tr > th {
-    background-color: rgb(46, 157, 254);
+    background-color: rgb(40, 168, 226);
     text-align: left;
     color: white;
 }
 
 tr:nth-child(odd) {
-    background-color: rgb(139, 224, 255);
+    background-color: rgb(178, 228, 241);
 }
 
 .colspan3 {
     width: 50%;
 }
 
-.lightcyan{
-    background-color: rgb(139, 224, 255);
-}
-
 aside > h3{
-    color: rgb(159, 159, 159);
+    color: rgb(128, 128, 128);
+    padding: 0.5rem 0;
 }
 
 aside > div > h3 {
@@ -86,12 +87,14 @@ aside > div > h3 {
     padding: 1rem;
 }
 
-.related-box {
-    margin: 0 0 1rem 0;;
-    width: 300px;
-    height: 200px;
-    background-size: contain;
+.related-item {
+    width: 250px;
+    margin: 0 0 0.5rem 0;
     position: relative;
+}
+
+.related-item > img {
+    width: 100%;
 }
 
 .text-img,
@@ -99,4 +102,3 @@ aside > div > h3 {
     position: absolute;
     top: 0;
 }
-
